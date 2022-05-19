@@ -1,7 +1,8 @@
+package test.examples;
+
 public class RemovalAdjacentDuplicateCharacters{
 
-     char[] chars = str.toCharArray();
-     int i, k = 0;
+    int i, k = 0;
      public static String remove(String s){
         char[] values = s.toCharArray();
         char[] tempArray = new char[values.length];
@@ -25,6 +26,7 @@ public class RemovalAdjacentDuplicateCharacters{
         return String.valueOf(tempArray);
     }
    public static void main(String args[]){
-    System.out.println(remove("raamu")); //op:rmu 
+
+         System.out.println(remove("raamu")); //op:rmu
   }
 }

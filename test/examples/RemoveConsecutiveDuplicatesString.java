@@ -3,6 +3,7 @@ package test.examples;
 public class RemoveConsecutiveDuplicatesString {
 
 
+    //raammmmuuu = ramu
     public static String removeConsecutiveDuplicates(String name) {
         if (name.length() <= 1)
             return name;
@@ -16,6 +17,7 @@ public class RemoveConsecutiveDuplicatesString {
 
 
     public static void main(String[] args) {
+
         System.out.println(removeConsecutiveDuplicates("raammmmuuu"));
     }
 }

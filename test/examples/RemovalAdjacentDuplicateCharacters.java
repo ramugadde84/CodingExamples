@@ -2,8 +2,7 @@ package test.examples;
 
 public class RemovalAdjacentDuplicateCharacters {
 
-    int i, k = 0;
-
+    //ouput: raamu = rmu
     public static String remove(String s) {
         char[] values = s.toCharArray();
         char[] tempArray = new char[values.length];
